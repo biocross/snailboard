@@ -15,3 +15,7 @@ Router.route('/', function(){
   //GAnalytics.pageview();
   this.render('Home');
 });
+Router.route('/friend', function(){
+  //GAnalytics.pageview();
+  this.render('Friend');
+});
